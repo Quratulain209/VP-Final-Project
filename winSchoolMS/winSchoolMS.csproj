@@ -60,11 +60,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Teacher Info.cs">
+    <Compile Include="TeacherDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teacher Info.Designer.cs">
-      <DependentUpon>Teacher Info.cs</DependentUpon>
+    <Compile Include="TeacherDetails.Designer.cs">
+      <DependentUpon>TeacherDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherView.Designer.cs">
+      <DependentUpon>TeacherView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -81,8 +87,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Teacher Info.resx">
-      <DependentUpon>Teacher Info.cs</DependentUpon>
+    <EmbeddedResource Include="TeacherDetails.resx">
+      <DependentUpon>TeacherDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherView.resx">
+      <DependentUpon>TeacherView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

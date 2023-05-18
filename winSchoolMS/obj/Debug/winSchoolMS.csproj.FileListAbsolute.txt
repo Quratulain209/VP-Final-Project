@@ -4,10 +4,11 @@ D:\Visual Programming\winSchoolMS\winSchoolMS\bin\Debug\winSchoolMS.pdb
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.AssemblyReference.cache
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.SuggestedBindingRedirects.cache
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.Form1.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmLogin.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.Properties.Resources.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.TeacherView.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.GenerateResource.cache
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.csproj.CoreCompileInputs.cache
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.exe
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.pdb
-D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmLogin.resources
-D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.Teacher_Info.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.TeacherDetail.resources
