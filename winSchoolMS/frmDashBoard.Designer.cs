@@ -1,6 +1,6 @@
 ﻿namespace winSchoolMS
 {
-    partial class Form1
+    partial class frmDashBoard
     {
         /// <summary>
         /// Required designer variable.
@@ -170,7 +170,7 @@
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
-            // Form1
+            // frmDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,8 +178,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip2);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmDashBoard";
+            this.Text = "DashBoard";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);

@@ -32,8 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.grdSearch = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.grdSearch)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -42,9 +42,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(291, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(176, 31);
+            this.label2.Size = new System.Drawing.Size(291, 31);
             this.label2.TabIndex = 7;
-            this.label2.Text = "View Details";
+            this.label2.Text = "View Teacher Details";
             // 
             // label1
             // 
@@ -72,15 +72,15 @@
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // grdSearch
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.InactiveCaption;
-            this.dataGridView1.Location = new System.Drawing.Point(77, 143);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(652, 308);
-            this.dataGridView1.TabIndex = 11;
+            this.grdSearch.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
+            this.grdSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdSearch.GridColor = System.Drawing.SystemColors.InactiveCaption;
+            this.grdSearch.Location = new System.Drawing.Point(77, 143);
+            this.grdSearch.Name = "grdSearch";
+            this.grdSearch.Size = new System.Drawing.Size(652, 308);
+            this.grdSearch.TabIndex = 11;
             // 
             // TeacherView
             // 
@@ -88,14 +88,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.grdSearch);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Name = "TeacherView";
             this.Text = "TeacherView";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdSearch)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,6 +107,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView grdSearch;
     }
 }

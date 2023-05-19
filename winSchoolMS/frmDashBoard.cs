@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace winSchoolMS
 {
-    public partial class frmLogin : Form
+    public partial class frmDashBoard : Form
     {
-        public frmLogin()
+        public frmDashBoard()
         {
             InitializeComponent();
         }
-
-        
     }
 }

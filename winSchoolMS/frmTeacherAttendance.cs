@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace winSchoolMS
 {
-    public partial class TeacherView : Form
+    public partial class frmTeacherAttendance : Form
     {
-        public TeacherView()
+        public frmTeacherAttendance()
         {
             InitializeComponent();
         }
-
-        
     }
 }
