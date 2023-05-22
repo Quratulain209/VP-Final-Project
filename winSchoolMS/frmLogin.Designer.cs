@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,7 +43,7 @@
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(148, 64);
+            this.txtUserName.Location = new System.Drawing.Point(147, 100);
             this.txtUserName.Multiline = true;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(273, 31);
@@ -50,7 +51,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(147, 125);
+            this.txtPassword.Location = new System.Drawing.Point(146, 161);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(273, 31);
@@ -60,7 +61,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(341, 38);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label2.Location = new System.Drawing.Point(369, 42);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 37);
             this.label2.TabIndex = 4;
@@ -70,7 +72,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(62, 131);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.Location = new System.Drawing.Point(61, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 16);
             this.label1.TabIndex = 5;
@@ -80,7 +83,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(60, 72);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.label3.Location = new System.Drawing.Point(59, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(73, 16);
             this.label3.TabIndex = 6;
@@ -95,6 +99,7 @@
             this.gbxLogin.Controls.Add(this.txtPassword);
             this.gbxLogin.Controls.Add(this.txtUserName);
             this.gbxLogin.Controls.Add(this.label3);
+            this.gbxLogin.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.gbxLogin.Location = new System.Drawing.Point(146, 106);
             this.gbxLogin.Name = "gbxLogin";
             this.gbxLogin.Size = new System.Drawing.Size(515, 365);
@@ -112,11 +117,13 @@
             this.lblCreateanAccount.Size = new System.Drawing.Size(115, 16);
             this.lblCreateanAccount.TabIndex = 9;
             this.lblCreateanAccount.Text = "Create an account";
+            this.lblCreateanAccount.Click += new System.EventHandler(this.lblCreateanAccount_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label5.Location = new System.Drawing.Point(158, 318);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(114, 15);
@@ -125,23 +132,26 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(237, 186);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Location = new System.Drawing.Point(236, 222);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(92, 41);
             this.button2.TabIndex = 7;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 511);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.gbxLogin);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.Text = "Login";
             this.gbxLogin.ResumeLayout(false);

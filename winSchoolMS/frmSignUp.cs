@@ -17,6 +17,15 @@ namespace winSchoolMS
             InitializeComponent();
         }
 
-       
+        private void lblLogin_Click(object sender, EventArgs e)
+        {
+            frmLogin obj = new frmLogin();
+            obj.Show();
+        }
+
+        private void btnCreateAccount_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sucessfully account create");
+        }
     }
 }
