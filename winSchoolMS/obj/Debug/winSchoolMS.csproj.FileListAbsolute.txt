@@ -13,7 +13,6 @@ D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmDashBoard
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmTeacherDetailsView.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmSignUp.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.TeacherInformation.resources
-D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmTeacherAttendance.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.AttendenceDetailVeiw.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.EducationalDetails.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.EducationalDetailsVeiw.resources
@@ -22,7 +21,5 @@ D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmstudentpe
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmDefultarstudent.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.FrmExaminationDetail.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmFeeDetail.resources
-D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmStudentPersonalDetail.resources
-D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.TeacherView.resources
 D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.frmStudentDetailsVeiw.resources
-D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.StudetsAttendenceDetails.resources
+D:\Visual Programming\winSchoolMS\winSchoolMS\obj\Debug\winSchoolMS.StudentPersonalDetails.resources

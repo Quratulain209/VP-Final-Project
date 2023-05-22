@@ -40,6 +40,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(242, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(257, 31);
@@ -49,7 +50,8 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(166, 102);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(108, 97);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 3;
@@ -57,15 +59,16 @@
             // 
             // txtSearchED
             // 
-            this.txtSearchED.Location = new System.Drawing.Point(215, 99);
+            this.txtSearchED.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtSearchED.Location = new System.Drawing.Point(155, 94);
             this.txtSearchED.Name = "txtSearchED";
-            this.txtSearchED.Size = new System.Drawing.Size(324, 20);
+            this.txtSearchED.Size = new System.Drawing.Size(442, 20);
             this.txtSearchED.TabIndex = 4;
             // 
             // btnSearchED
             // 
-            this.btnSearchED.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnSearchED.Location = new System.Drawing.Point(545, 99);
+            this.btnSearchED.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnSearchED.Location = new System.Drawing.Point(615, 92);
             this.btnSearchED.Name = "btnSearchED";
             this.btnSearchED.Size = new System.Drawing.Size(75, 23);
             this.btnSearchED.TabIndex = 5;
@@ -74,18 +77,18 @@
             // 
             // gvExamDetail
             // 
-            this.gvExamDetail.BackgroundColor = System.Drawing.Color.LemonChiffon;
+            this.gvExamDetail.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.gvExamDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvExamDetail.Location = new System.Drawing.Point(169, 131);
+            this.gvExamDetail.Location = new System.Drawing.Point(77, 131);
             this.gvExamDetail.Name = "gvExamDetail";
-            this.gvExamDetail.Size = new System.Drawing.Size(451, 310);
+            this.gvExamDetail.Size = new System.Drawing.Size(647, 310);
             this.gvExamDetail.TabIndex = 6;
             // 
             // FrmExaminationDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Khaki;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.gvExamDetail);
             this.Controls.Add(this.btnSearchED);

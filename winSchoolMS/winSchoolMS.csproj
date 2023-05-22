@@ -47,11 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StudetsAttendenceDetails.cs">
+    <Compile Include="StudentPersonalDetails.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudetsAttendenceDetails.Designer.cs">
-      <DependentUpon>StudetsAttendenceDetails.cs</DependentUpon>
+    <Compile Include="StudentPersonalDetails.Designer.cs">
+      <DependentUpon>StudentPersonalDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="AttendenceDetailVeiw.cs">
       <SubType>Form</SubType>
@@ -119,29 +119,11 @@
     <Compile Include="frmSignUp.Designer.cs">
       <DependentUpon>frmSignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStudentPersonalDetail.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmStudentPersonalDetail.Designer.cs">
-      <DependentUpon>frmStudentPersonalDetail.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTeacherAttendance.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTeacherAttendance.Designer.cs">
-      <DependentUpon>frmTeacherAttendance.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmTeacherDetailsView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmTeacherDetailsView.Designer.cs">
       <DependentUpon>frmTeacherDetailsView.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTeacherView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTeacherView.Designer.cs">
-      <DependentUpon>frmTeacherView.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -157,8 +139,8 @@
     <Compile Include="StudentDetailsVeiw.Designer.cs">
       <DependentUpon>StudentDetailsVeiw.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StudetsAttendenceDetails.resx">
-      <DependentUpon>StudetsAttendenceDetails.cs</DependentUpon>
+    <EmbeddedResource Include="StudentPersonalDetails.resx">
+      <DependentUpon>StudentPersonalDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AttendenceDetailVeiw.resx">
       <DependentUpon>AttendenceDetailVeiw.cs</DependentUpon>
@@ -193,17 +175,8 @@
     <EmbeddedResource Include="frmSignUp.resx">
       <DependentUpon>frmSignUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmStudentPersonalDetail.resx">
-      <DependentUpon>frmStudentPersonalDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTeacherAttendance.resx">
-      <DependentUpon>frmTeacherAttendance.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmTeacherDetailsView.resx">
       <DependentUpon>frmTeacherDetailsView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTeacherView.resx">
-      <DependentUpon>frmTeacherView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

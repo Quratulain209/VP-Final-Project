@@ -17,9 +17,6 @@ namespace winSchoolMS
             InitializeComponent();
         }
 
-        private void TeacherInformation_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

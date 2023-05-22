@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeacherInformation));
             this.label1 = new System.Windows.Forms.Label();
             this.txtFirstName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -66,6 +67,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(24, 137);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(57, 13);
@@ -83,6 +85,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(267, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(276, 31);
@@ -100,6 +103,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(333, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
@@ -116,6 +120,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(24, 225);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 13);
@@ -132,6 +137,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Location = new System.Drawing.Point(333, 226);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(32, 13);
@@ -148,6 +154,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(333, 181);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(25, 13);
@@ -164,6 +171,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label7.Location = new System.Drawing.Point(24, 178);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 13);
@@ -180,6 +188,7 @@
             // label
             // 
             this.label.AutoSize = true;
+            this.label.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label.Location = new System.Drawing.Point(24, 313);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(60, 13);
@@ -196,6 +205,7 @@
             // labal2
             // 
             this.labal2.AutoSize = true;
+            this.labal2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.labal2.Location = new System.Drawing.Point(333, 266);
             this.labal2.Name = "labal2";
             this.labal2.Size = new System.Drawing.Size(36, 13);
@@ -212,6 +222,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label10.Location = new System.Drawing.Point(24, 269);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(65, 13);
@@ -220,16 +231,18 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(215, 448);
+            this.btnInsert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnInsert.Location = new System.Drawing.Point(206, 423);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 32);
             this.btnInsert.TabIndex = 22;
             this.btnInsert.Text = "Insert";
-            this.btnInsert.UseVisualStyleBackColor = true;
+            this.btnInsert.UseVisualStyleBackColor = false;
             // 
             // rdbMale
             // 
             this.rdbMale.AutoSize = true;
+            this.rdbMale.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.rdbMale.Location = new System.Drawing.Point(86, 362);
             this.rdbMale.Name = "rdbMale";
             this.rdbMale.Size = new System.Drawing.Size(48, 17);
@@ -241,6 +254,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label11.Location = new System.Drawing.Point(23, 364);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(42, 13);
@@ -250,6 +264,7 @@
             // rdbFemale
             // 
             this.rdbFemale.AutoSize = true;
+            this.rdbFemale.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.rdbFemale.Location = new System.Drawing.Point(147, 362);
             this.rdbFemale.Name = "rdbFemale";
             this.rdbFemale.Size = new System.Drawing.Size(59, 17);
@@ -260,27 +275,29 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(371, 448);
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnUpdate.Location = new System.Drawing.Point(362, 423);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 32);
             this.btnUpdate.TabIndex = 27;
             this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(520, 448);
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnDelete.Location = new System.Drawing.Point(511, 423);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 32);
             this.btnDelete.TabIndex = 28;
             this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             // 
             // grdTeacherInfo
             // 
-            this.grdTeacherInfo.BackgroundColor = System.Drawing.SystemColors.ControlDark;
+            this.grdTeacherInfo.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.grdTeacherInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdTeacherInfo.Location = new System.Drawing.Point(54, 510);
+            this.grdTeacherInfo.Location = new System.Drawing.Point(63, 487);
             this.grdTeacherInfo.Name = "grdTeacherInfo";
             this.grdTeacherInfo.Size = new System.Drawing.Size(686, 219);
             this.grdTeacherInfo.TabIndex = 29;
@@ -305,7 +322,8 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(333, 313);
+            this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label8.Location = new System.Drawing.Point(332, 313);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(63, 13);
             this.label8.TabIndex = 31;
@@ -314,6 +332,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label9.Location = new System.Drawing.Point(323, 363);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(66, 13);
@@ -331,8 +350,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(800, 673);
+            this.BackColor = System.Drawing.SystemColors.Desktop;
+            this.ClientSize = new System.Drawing.Size(800, 724);
             this.Controls.Add(this.dtJoiningDate);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtDesignation);
@@ -364,9 +383,9 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtFirstName);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TeacherInformation";
             this.Text = "Teacher Information";
-            this.Load += new System.EventHandler(this.TeacherInformation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grdTeacherInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

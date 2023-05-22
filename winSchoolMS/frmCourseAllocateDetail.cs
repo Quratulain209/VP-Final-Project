@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace winproject
 {
-    public partial class Form1 : Form
+    public partial class frmCourseAllocateDetail : Form
     {
-        public Form1()
+        public frmCourseAllocateDetail()
         {
             InitializeComponent();
         }

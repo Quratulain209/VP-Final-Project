@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace winSchoolMS
 {
-    public partial class StudetsAttendenceDetails : Form
+    public partial class StudentPersonalDetails : Form
     {
-        public StudetsAttendenceDetails()
+        public StudentPersonalDetails()
         {
             InitializeComponent();
         }
 
-      
+        
     }
 }

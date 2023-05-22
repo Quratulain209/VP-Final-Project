@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace winSchoolMS
+namespace winproject
 {
-    public partial class TeacherView : Form
+    public partial class frmStudentAttendance : Form
     {
-        public TeacherView()
+        public frmStudentAttendance()
         {
             InitializeComponent();
         }
