@@ -1,6 +1,6 @@
 ﻿namespace winSchoolMS
 {
-    partial class StudentPersonalDetails
+    partial class frmStudentPersonalDetails
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentPersonalDetails));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStudentPersonalDetails));
             this.txtlastname = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtFulName = new System.Windows.Forms.TextBox();
@@ -333,11 +333,9 @@
             // pbxStudent
             // 
             this.pbxStudent.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pbxStudent.Image = global::winSchoolMS.Properties.Resources.logo;
             this.pbxStudent.Location = new System.Drawing.Point(627, 108);
             this.pbxStudent.Name = "pbxStudent";
-            this.pbxStudent.Size = new System.Drawing.Size(118, 115);
-            this.pbxStudent.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxStudent.Size = new System.Drawing.Size(118, 130);
             this.pbxStudent.TabIndex = 62;
             this.pbxStudent.TabStop = false;
             // 
@@ -374,7 +372,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtFulName);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StudentPersonalDetails";
             this.Text = "StudentPersonalDetails";

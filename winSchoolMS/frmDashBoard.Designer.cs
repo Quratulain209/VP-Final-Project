@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashBoard));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.personalInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.educationalInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,34 +43,21 @@
             this.examinationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.miscellinousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.studentsDetailViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(169, 147);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(466, 55);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Welcome To School ";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(264, 237);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 55);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "DashBoard";
             // 
             // studentToolStripMenuItem
             // 
             this.studentToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.personalInformationToolStripMenuItem,
-            this.educationalInformationToolStripMenuItem});
+            this.educationalInformationToolStripMenuItem,
+            this.studentsDetailViewToolStripMenuItem});
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
             this.studentToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.studentToolStripMenuItem.Text = "Student";
@@ -82,12 +67,14 @@
             this.personalInformationToolStripMenuItem.Name = "personalInformationToolStripMenuItem";
             this.personalInformationToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.personalInformationToolStripMenuItem.Text = "Personal Information";
+            this.personalInformationToolStripMenuItem.Click += new System.EventHandler(this.personalInformationToolStripMenuItem_Click);
             // 
             // educationalInformationToolStripMenuItem
             // 
             this.educationalInformationToolStripMenuItem.Name = "educationalInformationToolStripMenuItem";
             this.educationalInformationToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.educationalInformationToolStripMenuItem.Text = "Educational Information";
+            this.educationalInformationToolStripMenuItem.Click += new System.EventHandler(this.educationalInformationToolStripMenuItem_Click);
             // 
             // teacherToolStripMenuItem
             // 
@@ -101,14 +88,16 @@
             // teacherInfoToolStripMenuItem
             // 
             this.teacherInfoToolStripMenuItem.Name = "teacherInfoToolStripMenuItem";
-            this.teacherInfoToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.teacherInfoToolStripMenuItem.Text = "Information";
+            this.teacherInfoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.teacherInfoToolStripMenuItem.Text = "Teacher Detail View";
+            this.teacherInfoToolStripMenuItem.Click += new System.EventHandler(this.teacherInfoToolStripMenuItem_Click);
             // 
             // newTeacherToolStripMenuItem
             // 
             this.newTeacherToolStripMenuItem.Name = "newTeacherToolStripMenuItem";
-            this.newTeacherToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.newTeacherToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
             this.newTeacherToolStripMenuItem.Text = "New Teacher";
+            this.newTeacherToolStripMenuItem.Click += new System.EventHandler(this.newTeacherToolStripMenuItem_Click);
             // 
             // attendanceToolStripMenuItem
             // 
@@ -171,27 +160,66 @@
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(113, 24);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(687, 53);
+            this.panel1.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(119, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(408, 29);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Active Learning Schooling System";
+            // 
+            // studentsDetailViewToolStripMenuItem
+            // 
+            this.studentsDetailViewToolStripMenuItem.Name = "studentsDetailViewToolStripMenuItem";
+            this.studentsDetailViewToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.studentsDetailViewToolStripMenuItem.Text = "Students Detail View";
+            this.studentsDetailViewToolStripMenuItem.Click += new System.EventHandler(this.studentsDetailViewToolStripMenuItem_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::winSchoolMS.Properties.Resources.logo_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(7, 24);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(110, 53);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+          
+            // 
             // frmDashBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDashBoard";
             this.Text = "DashBoard";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolStripMenuItem studentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem personalInformationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem educationalInformationToolStripMenuItem;
@@ -206,6 +234,10 @@
         private System.Windows.Forms.ToolStripMenuItem examinationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem miscellinousToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem studentsDetailViewToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

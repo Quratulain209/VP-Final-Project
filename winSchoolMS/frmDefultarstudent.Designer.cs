@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDefultarstudent));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtDSLSearch = new System.Windows.Forms.TextBox();
@@ -42,7 +43,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(237, 9);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(251, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(298, 31);
             this.label1.TabIndex = 0;
@@ -51,6 +53,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(88, 98);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
@@ -66,16 +69,17 @@
             // 
             // btnSDLSearch
             // 
+            this.btnSDLSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnSDLSearch.Location = new System.Drawing.Point(625, 93);
             this.btnSDLSearch.Name = "btnSDLSearch";
             this.btnSDLSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSDLSearch.TabIndex = 3;
             this.btnSDLSearch.Text = "Search";
-            this.btnSDLSearch.UseVisualStyleBackColor = true;
+            this.btnSDLSearch.UseVisualStyleBackColor = false;
             // 
             // gvDefaulterrStudent
             // 
-            this.gvDefaulterrStudent.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
+            this.gvDefaulterrStudent.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.gvDefaulterrStudent.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gvDefaulterrStudent.Location = new System.Drawing.Point(91, 147);
             this.gvDefaulterrStudent.Name = "gvDefaulterrStudent";
@@ -106,6 +110,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(428, 99);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
@@ -116,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cmbMonth);
@@ -125,6 +130,7 @@
             this.Controls.Add(this.txtDSLSearch);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmDefultarstudent";
             this.Text = "Defultarstudent";
             ((System.ComponentModel.ISupportInitialize)(this.gvDefaulterrStudent)).EndInit();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace winSchoolMS
 {
-    public partial class AttendenceDetailVeiw : Form
+    public partial class frmAttendenceVeiw : Form
     {
-        public AttendenceDetailVeiw()
+        public frmAttendenceVeiw()
         {
             InitializeComponent();
         }
