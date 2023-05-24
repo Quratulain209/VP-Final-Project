@@ -29,148 +29,146 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.gbxLogin = new System.Windows.Forms.GroupBox();
             this.lblCreateanAccount = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.gbxLogin.SuspendLayout();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtPassward = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pbxLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Location = new System.Drawing.Point(147, 100);
-            this.txtUserName.Multiline = true;
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(273, 31);
-            this.txtUserName.TabIndex = 0;
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.Location = new System.Drawing.Point(146, 161);
-            this.txtPassword.Multiline = true;
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(273, 31);
-            this.txtPassword.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label2.Location = new System.Drawing.Point(369, 42);
+            this.label2.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.label2.Location = new System.Drawing.Point(504, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 37);
             this.label2.TabIndex = 4;
             this.label2.Text = "Login ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label1.Location = new System.Drawing.Point(61, 167);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Password";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label3.Location = new System.Drawing.Point(59, 108);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(73, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "UserName";
-            // 
-            // gbxLogin
-            // 
-            this.gbxLogin.Controls.Add(this.lblCreateanAccount);
-            this.gbxLogin.Controls.Add(this.label5);
-            this.gbxLogin.Controls.Add(this.button2);
-            this.gbxLogin.Controls.Add(this.label1);
-            this.gbxLogin.Controls.Add(this.txtPassword);
-            this.gbxLogin.Controls.Add(this.txtUserName);
-            this.gbxLogin.Controls.Add(this.label3);
-            this.gbxLogin.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.gbxLogin.Location = new System.Drawing.Point(146, 106);
-            this.gbxLogin.Name = "gbxLogin";
-            this.gbxLogin.Size = new System.Drawing.Size(515, 365);
-            this.gbxLogin.TabIndex = 7;
-            this.gbxLogin.TabStop = false;
-            this.gbxLogin.Text = "Login Here";
             // 
             // lblCreateanAccount
             // 
             this.lblCreateanAccount.AutoSize = true;
             this.lblCreateanAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCreateanAccount.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblCreateanAccount.Location = new System.Drawing.Point(269, 318);
+            this.lblCreateanAccount.Location = new System.Drawing.Point(561, 345);
             this.lblCreateanAccount.Name = "lblCreateanAccount";
             this.lblCreateanAccount.Size = new System.Drawing.Size(115, 16);
-            this.lblCreateanAccount.TabIndex = 9;
+            this.lblCreateanAccount.TabIndex = 16;
             this.lblCreateanAccount.Text = "Create an account";
-            this.lblCreateanAccount.Click += new System.EventHandler(this.lblCreateanAccount_Click);
+            this.lblCreateanAccount.Click += new System.EventHandler(this.lblCreateanAccount_Click_1);
             // 
-            // label5
+            // label6
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(158, 318);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(114, 15);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Not Registered yet?";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.label6.Location = new System.Drawing.Point(450, 345);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(114, 15);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Not Registered yet?";
             // 
-            // button2
+            // btnLogin
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button2.Location = new System.Drawing.Point(236, 222);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 41);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Login";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnLogin.Location = new System.Drawing.Point(517, 257);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(92, 41);
+            this.btnLogin.TabIndex = 14;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.label7.Location = new System.Drawing.Point(342, 212);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 16);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Password";
+            // 
+            // txtPassward
+            // 
+            this.txtPassward.Location = new System.Drawing.Point(427, 206);
+            this.txtPassward.Multiline = true;
+            this.txtPassward.Name = "txtPassward";
+            this.txtPassward.Size = new System.Drawing.Size(273, 31);
+            this.txtPassward.TabIndex = 11;
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(427, 157);
+            this.txtName.Multiline = true;
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(273, 31);
+            this.txtName.TabIndex = 10;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.label8.Location = new System.Drawing.Point(339, 165);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 16);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "UserName";
+            // 
+            // pbxLogo
+            // 
+            this.pbxLogo.Image = global::winSchoolMS.Properties.Resources.logo_removebg_preview;
+            this.pbxLogo.Location = new System.Drawing.Point(37, 91);
+            this.pbxLogo.Name = "pbxLogo";
+            this.pbxLogo.Size = new System.Drawing.Size(231, 225);
+            this.pbxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxLogo.TabIndex = 17;
+            this.pbxLogo.TabStop = false;
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(800, 511);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(749, 414);
+            this.Controls.Add(this.pbxLogo);
+            this.Controls.Add(this.lblCreateanAccount);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtPassward);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.gbxLogin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmLogin";
             this.Text = "Login";
-            this.gbxLogin.ResumeLayout(false);
-            this.gbxLogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.GroupBox gbxLogin;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label lblCreateanAccount;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtPassward;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.PictureBox pbxLogo;
     }
 }

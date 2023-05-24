@@ -17,15 +17,17 @@ namespace winSchoolMS
             InitializeComponent();
         }
 
-        private void lblCreateanAccount_Click(object sender, EventArgs e)
+       
+
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmSignUp obj = new frmSignUp();
+            frmDashBoard obj = new frmDashBoard();
             obj.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void lblCreateanAccount_Click_1(object sender, EventArgs e)
         {
-            frmDashBoard obj = new frmDashBoard();
+            frmSignUp obj = new frmSignUp();
             obj.Show();
         }
     }

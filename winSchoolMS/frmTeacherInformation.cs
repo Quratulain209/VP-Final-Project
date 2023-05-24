@@ -17,6 +17,6 @@ namespace winSchoolMS
             InitializeComponent();
         }
 
-        
+       
     }
 }
