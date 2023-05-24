@@ -32,6 +32,7 @@
             this.studentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.personalInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.educationalInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.studentsDetailViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teacherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.teacherInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newTeacherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,8 +46,9 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.studentsDetailViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.feesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.defaulterStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,6 +78,13 @@
             this.educationalInformationToolStripMenuItem.Text = "Educational Information";
             this.educationalInformationToolStripMenuItem.Click += new System.EventHandler(this.educationalInformationToolStripMenuItem_Click);
             // 
+            // studentsDetailViewToolStripMenuItem
+            // 
+            this.studentsDetailViewToolStripMenuItem.Name = "studentsDetailViewToolStripMenuItem";
+            this.studentsDetailViewToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.studentsDetailViewToolStripMenuItem.Text = "Students Detail View";
+            this.studentsDetailViewToolStripMenuItem.Click += new System.EventHandler(this.studentsDetailViewToolStripMenuItem_Click);
+            // 
             // teacherToolStripMenuItem
             // 
             this.teacherToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -88,15 +97,15 @@
             // teacherInfoToolStripMenuItem
             // 
             this.teacherInfoToolStripMenuItem.Name = "teacherInfoToolStripMenuItem";
-            this.teacherInfoToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.teacherInfoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.teacherInfoToolStripMenuItem.Text = "Teacher Detail View";
             this.teacherInfoToolStripMenuItem.Click += new System.EventHandler(this.teacherInfoToolStripMenuItem_Click);
             // 
             // newTeacherToolStripMenuItem
             // 
             this.newTeacherToolStripMenuItem.Name = "newTeacherToolStripMenuItem";
-            this.newTeacherToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
-            this.newTeacherToolStripMenuItem.Text = "New Teacher";
+            this.newTeacherToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newTeacherToolStripMenuItem.Text = "Teacher Detail";
             this.newTeacherToolStripMenuItem.Click += new System.EventHandler(this.newTeacherToolStripMenuItem_Click);
             // 
             // attendanceToolStripMenuItem
@@ -111,17 +120,22 @@
             // studentToolStripMenuItem1
             // 
             this.studentToolStripMenuItem1.Name = "studentToolStripMenuItem1";
-            this.studentToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
+            this.studentToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.studentToolStripMenuItem1.Text = "Student";
+            this.studentToolStripMenuItem1.Click += new System.EventHandler(this.studentToolStripMenuItem1_Click);
             // 
             // teacherToolStripMenuItem1
             // 
             this.teacherToolStripMenuItem1.Name = "teacherToolStripMenuItem1";
-            this.teacherToolStripMenuItem1.Size = new System.Drawing.Size(115, 22);
+            this.teacherToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.teacherToolStripMenuItem1.Text = "Teacher";
+            this.teacherToolStripMenuItem1.Click += new System.EventHandler(this.teacherToolStripMenuItem1_Click);
             // 
             // accountsToolStripMenuItem
             // 
+            this.accountsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.feesToolStripMenuItem,
+            this.defaulterStudentToolStripMenuItem});
             this.accountsToolStripMenuItem.Name = "accountsToolStripMenuItem";
             this.accountsToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.accountsToolStripMenuItem.Text = "Accounts";
@@ -179,13 +193,6 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Active Learning Schooling System";
             // 
-            // studentsDetailViewToolStripMenuItem
-            // 
-            this.studentsDetailViewToolStripMenuItem.Name = "studentsDetailViewToolStripMenuItem";
-            this.studentsDetailViewToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.studentsDetailViewToolStripMenuItem.Text = "Students Detail View";
-            this.studentsDetailViewToolStripMenuItem.Click += new System.EventHandler(this.studentsDetailViewToolStripMenuItem_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::winSchoolMS.Properties.Resources.logo_removebg_preview;
@@ -195,7 +202,20 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-          
+            // 
+            // feesToolStripMenuItem
+            // 
+            this.feesToolStripMenuItem.Name = "feesToolStripMenuItem";
+            this.feesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.feesToolStripMenuItem.Text = "Fees";
+            this.feesToolStripMenuItem.Click += new System.EventHandler(this.feesToolStripMenuItem_Click);
+            // 
+            // defaulterStudentToolStripMenuItem
+            // 
+            this.defaulterStudentToolStripMenuItem.Name = "defaulterStudentToolStripMenuItem";
+            this.defaulterStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.defaulterStudentToolStripMenuItem.Text = "Defaulter Student";
+            this.defaulterStudentToolStripMenuItem.Click += new System.EventHandler(this.defaulterStudentToolStripMenuItem_Click);
             // 
             // frmDashBoard
             // 
@@ -238,6 +258,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem studentsDetailViewToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem feesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem defaulterStudentToolStripMenuItem;
     }
 }
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using winproject;
 
 namespace winSchoolMS
 {
@@ -47,6 +48,28 @@ namespace winSchoolMS
             obj.Show();
         }
 
-        
+        private void studentToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmStudentAttendance obj = new frmStudentAttendance();
+            obj.Show();
+        }
+
+        private void teacherToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmTeacherAttendance obj = new frmTeacherAttendance();
+            obj.Show();
+        }
+
+        private void feesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFeeDetail obj = new frmFeeDetail();
+            obj.Show();
+        }
+
+        private void defaulterStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDefultarstudent obj = new frmDefultarstudent();
+            obj.Show();
+        }
     }
 }
